@@ -1,0 +1,24 @@
+! Title : Hacmer Personal AGH REGEX Rules
+! Update : 2023/1
+!
+! DNS Rewrite
+/.*[\?|\+|\/]/$dnsrewrite=NXDOMAIN
+/^.+\.(arpa|lan|wifi|dnscrypt)$/$dnsrewrite=NXDOMAIN
+/^[^.]+$/$dnsrewrite=NXDOMAIN
+/[a-z0-9]*dnslab[a-z0-9]*/$dnsrewrite=SERVFAIL
+!
+! Tacker
+!
+/^.*collect.*\.kugou\.com/
+/^[a-z0-9]*stat[^ic][a-z0-9]*\.kugou\.com/
+/\.*log(0-9)*\-applog/
+/^[a-z0-9]*-applog\.[a-z0-9]*/
+/^[a-z0-9\.]*stat[a-z0-9\.]*/
+!
+! http(s) dns
+!
+/[a-z0-9\.]*(http|https)dns\.[a-z0-9\.]*/
+!
+! F**K Shit CDN
+!
+/mcdn\.bilivideo\.(cn|com)/
