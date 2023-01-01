@@ -10,10 +10,13 @@
 ! Tacker
 !
 /^.*collect.*\.kugou\.com/
-/^[a-z0-9]*stat[^ic][a-z0-9]*\.kugou\.com/
+/^[a-z0-9]*stat[^ic][a-z0-9\.]*kugou\.com/
 /\.*log(0-9)*\-applog/
 /^[a-z0-9]*-applog\.[a-z0-9]*/
 /^[a-z0-9\.]*stat[a-z0-9\.]*/
+/^clog[a-z0-9\.]+/
+/^datacollector[a-z0-9\.]+/
+/^analytic(s)?[a-z0-9\.]+/
 !
 ! http(s) dns
 !
@@ -22,3 +25,11 @@
 ! F**K Shit CDN
 !
 /mcdn\.bilivideo\.(cn|com)/
+!
+! Ads
+!
+/^.*\.ad(s)\.[a-z0-9\.]+/
+/^.*\-ad\.[a-z0-9\.]+/
+/^adservice\.[a-z0-9\.]+/
+/^advert[a-z0-9\.]+/
+
