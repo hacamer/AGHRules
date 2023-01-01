@@ -13,7 +13,7 @@
 /^[a-z0-9]*stat[^ic][a-z0-9\.]*kugou\.com/
 /\.*log(0-9)*\-applog/
 /^[a-z0-9]*-applog\.[a-z0-9]*/
-/^[a-z0-9\.]*stat[a-z0-9\.]*/
+/^[a-z0-9\.]*stat(s)?\.[a-z0-9\.]*/
 /^clog[a-z0-9\.]+/
 /^datacollector[a-z0-9\.]+/
 /^analytic(s)?[a-z0-9\.]+/
