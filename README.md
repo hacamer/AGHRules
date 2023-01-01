@@ -1,0 +1,2 @@
+# AGHRules
+Personal AGH Rules
