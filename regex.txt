@@ -32,4 +32,6 @@
 /^.*\-ad\.[a-z0-9\.]+/
 /^adservice\.[a-z0-9\.]+/
 /^advert[a-z0-9\.]+/
+/(.+)?\.?doubleclick\.(com|net)/
+/(.+)?adservices(.)+/
 
