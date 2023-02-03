@@ -34,4 +34,4 @@
 /^advert[a-z0-9\.]+/
 /(.+)?\.?doubleclick\.(com|net)/
 /(.+)?adservices(.)+/
-
+/pull\-rtmp\-.+\.(.)+\.(com|cn)/
