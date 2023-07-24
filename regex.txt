@@ -35,3 +35,12 @@
 /(.+)?\.?doubleclick\.(com|net)/
 /(.+)?adservices(.)+/
 /pull\-rtmp\-.+\.(.)+\.(com|cn)/
+/snssdk.*/
+/pangolin-sdk.*/
+/pglstatp-toutiao.*/
+/umeng.*/
+/-ad-/
+/.*log(s)?\.[a-z0-9.]*/
+/^ad(s)?.*/
+/\.ad\./
+/-ad/
