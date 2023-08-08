@@ -1,5 +1,5 @@
 ! Title : HC REGEX LIST
-! Update : 2023/2
+! Update : 2023/8
 !
 ! DNS Rewrite
 /.*[\?|\+|\/]/$dnsrewrite=NXDOMAIN
