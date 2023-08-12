@@ -41,5 +41,5 @@
 /-ad-/
 /.*log(s)?\.[a-z0-9.]*/
 /^ad(s)?.*/
-/\.ad\./
+/\.ad\./$dnstype=~CNAME
 /-ad/
