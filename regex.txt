@@ -39,7 +39,7 @@
 /pglstatp-toutiao.*/
 /umeng.*/
 /-ad-/
-/.*log(s)?\.[a-z0-9.]*/
+!/^log(s)?\.[a-z0-9.]*/
 /^ad(s)?\..*/
 /\.ad\./$dnstype=~CNAME
-/-ad/
+/-ad\./
